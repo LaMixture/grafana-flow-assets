@@ -50,5 +50,5 @@ cells:
     dataRef: "A-series"
     fillOpacity:
       thresholds:
-        - {value: 30,   level: 0}    # bus invisible si valeur = 0
-        - {value: 100, level: 1}    # bus visible si valeur >= 1
+        - {value: 0,   level: 50}    # bus invisible si valeur = 0
+        - {value: 100, level: 51}    # bus visible si valeur >= 1

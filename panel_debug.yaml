@@ -14,7 +14,7 @@ cells:
       decimalPoints: 0
     labelColor:
       thresholds:
-        - {color: "green",  level: 0}   # tout s'affiche en vert quelle que soit la valeur
+        - {color: "green", level: 0}
 
   VAsG2SNwr3bZL7IdS_jL-110:
     dataRef: "A-series"
@@ -24,7 +24,7 @@ cells:
       decimalPoints: 0
     labelColor:
       thresholds:
-        - {color: "green",  level: 0}
+        - {color: "green", level: 0}
 
   VAsG2SNwr3bZL7IdS_jL-106:
     dataRef: "A-series"
@@ -34,7 +34,7 @@ cells:
       decimalPoints: 1
     labelColor:
       thresholds:
-        - {color: "green",  level: 0}
+        - {color: "green", level: 0}
 
   VAsG2SNwr3bZL7IdS_jL-103:
     dataRef: "A-series"
@@ -44,10 +44,11 @@ cells:
       decimalPoints: 1
     labelColor:
       thresholds:
-        - {color: "green",  level: 0}
+        - {color: "green", level: 0}
 
   VAsG2SNwr3bZL7IdS_jL-97:
     dataRef: "A-series"
-    fillColor:
+    fillOpacity:
       thresholds:
-        - {color: "green",  level: 0}   # bus coloré en vert pour confirmer que la cellule est bien ciblée
+        - {value: 0,   level: 0}    # bus invisible si valeur = 0
+        - {value: 100, level: 1}    # bus visible si valeur >= 1

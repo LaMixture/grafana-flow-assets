@@ -1,0 +1,53 @@
+---
+cellIdPreamble: "cell-"
+cells:
+
+# ==============================================================================
+# BORNE 1 — DEBUG (toutes les cellules pointent sur A-series ~80-81)
+# ==============================================================================
+
+  VAsG2SNwr3bZL7IdS_jL-101:
+    dataRef: "A-series"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      thresholds:
+        - {color: "green",  level: 0}   # tout s'affiche en vert quelle que soit la valeur
+
+  VAsG2SNwr3bZL7IdS_jL-110:
+    dataRef: "A-series"
+    label:
+      separator: "colon"
+      units: "percent"
+      decimalPoints: 0
+    labelColor:
+      thresholds:
+        - {color: "green",  level: 0}
+
+  VAsG2SNwr3bZL7IdS_jL-106:
+    dataRef: "A-series"
+    label:
+      separator: "colon"
+      units: "kwatt"
+      decimalPoints: 1
+    labelColor:
+      thresholds:
+        - {color: "green",  level: 0}
+
+  VAsG2SNwr3bZL7IdS_jL-103:
+    dataRef: "A-series"
+    label:
+      separator: "colon"
+      units: "kwatt"
+      decimalPoints: 1
+    labelColor:
+      thresholds:
+        - {color: "green",  level: 0}
+
+  VAsG2SNwr3bZL7IdS_jL-97:
+    dataRef: "A-series"
+    fillColor:
+      thresholds:
+        - {color: "green",  level: 0}   # bus coloré en vert pour confirmer que la cellule est bien ciblée

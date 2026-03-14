@@ -50,4 +50,4 @@ cells:
     dataRef: "A-series"
     fillColor:
       thresholds:
-        - {color: "green",  level: 0}   # bus coloré en vert pour confirmer que la cellule est bien ciblée
+        - {color: "green",  level: 90}   # bus coloré en vert pour confirmer que la cellule est bien ciblée
